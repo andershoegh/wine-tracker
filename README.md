@@ -7,7 +7,7 @@ A hobby project.
 | First Header                             | Second Header |
 | ---------------------------------------- | ------------- |
 | Google Firebase Authentication           | OK            |
-| Style login/Signup/Forgot password pages |               |
+| Style login/Signup/Forgot password pages | OK            |
 | Sidebar                                  |               |
 | My wines page                            |               |
 | Portfolio page                           |               |
