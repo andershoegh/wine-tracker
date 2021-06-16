@@ -6,6 +6,8 @@ import Login from "./Login";
 import Signup from "./Signup";
 
 const LoginWrapper: React.FC = () => {
+  console.log("Wrapper");
+
   return (
     <>
       <div className="flex justify-center h-screen place-items-center">

@@ -11,6 +11,8 @@ const Login: React.FC = () => {
   const [loading, setLoading] = useState(false);
   const history = useHistory();
 
+  console.log("Login");
+
   async function handleSubmit(e: { preventDefault: () => void }) {
     e.preventDefault();
     if (passwordRef.current && emailRef.current) {

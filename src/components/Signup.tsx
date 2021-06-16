@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import { useAuth } from "../contexts/AuthContext";
-import { Link, useHistory } from "react-router-dom";
+import { Link, Redirect, useHistory } from "react-router-dom";
 import { Alert } from "./Alert";
 
 const Signup: React.FC = () => {
@@ -31,11 +31,12 @@ const Signup: React.FC = () => {
         setError("");
         setLoading(true);
         await signup(emailRef.current.value, passwordRef.current.value);
-        history.push("/");
+        setTimeout(() => {
+          history.push("/"); // TODO: figure out how to make sure user object is loaded before history push
+        }, 1000);
       } catch {
         setError("Failed to create account");
       }
-
       setLoading(false);
     }
   }
