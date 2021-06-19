@@ -4,18 +4,19 @@ A hobby project.
 
 ## High level to do
 
-| First Header                             | Second Header |
-| ---------------------------------------- | ------------- |
-| Google Firebase Authentication           | OK            |
-| Style login/Signup/Forgot password pages | OK            |
-| Sidebar                                  |               |
-| My wines page                            |               |
-| Portfolio page                           |               |
-| New investment opportunities page        |               |
-| Recommended for you                      |               |
-| Search for wine                          |               |
-| Reach a wine expert functionality        |               |
-| Critique reviews of wine                 |               |
+| First Header                                 | Second Header |
+| -------------------------------------------- | ------------- |
+| Google Firebase Authentication               | OK            |
+| Style login/Signup/Forgot password pages     | OK            |
+| Sidebar                                      |               |
+| My wines page                                |               |
+| Portfolio page                               |               |
+| New investment opportunities page            |               |
+| Recommended for you                          |               |
+| Search for wine                              |               |
+| Reach a wine expert functionality            |               |
+| Critique reviews of wine                     |               |
+| Map showing areas with invested wine origins |               |
 
 ### Google Firebase Authentication
 
