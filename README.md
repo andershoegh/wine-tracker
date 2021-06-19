@@ -17,6 +17,7 @@ A hobby project.
 | Reach a wine expert functionality            |               |
 | Critique reviews of wine                     |               |
 | Map showing areas with invested wine origins |               |
+| List view with acs/dsc functionality         |               |
 
 ### Google Firebase Authentication
 
