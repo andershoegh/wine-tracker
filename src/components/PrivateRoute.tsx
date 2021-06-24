@@ -6,7 +6,6 @@ interface PrivateRouteProps extends RouteProps {}
 
 const PrivateRoute: React.FC<PrivateRouteProps> = ({ ...rest }) => {
   const { currentUser } = useAuth();
-  console.log(currentUser);
 
   return currentUser ? <Route {...rest} /> : <Redirect to="/account" />;
 

@@ -4,6 +4,7 @@ import PrivateRoute from "./components/PrivateRoute";
 import AuthProvider from "./contexts/AuthContext";
 import LoginWrapper from "./components/LoginWrapper";
 import MyWines from "./pages/ContentDisplayer";
+import Map from "./pages/Map";
 
 const App: React.FC = () => {
   return (
@@ -12,6 +13,7 @@ const App: React.FC = () => {
         <AuthProvider>
           <Switch>
             <PrivateRoute exact path="/" component={MyWines} />
+            <PrivateRoute exact path="/map" component={Map} />
             <Route path="/account" component={LoginWrapper} />
           </Switch>
         </AuthProvider>
