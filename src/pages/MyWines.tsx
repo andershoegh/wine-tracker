@@ -12,14 +12,14 @@ const ContentDisplayer: React.FC = () => {
         region="Alba"
         valueArray={[2000, 1900, 2300, 2500, 2000, 2700, 3000]}
       />
-      {/* <WineCard
+      <WineCard
         name="Barolo"
         country="Italy"
         year="2016"
         worth="8000"
         region="Alba"
         valueArray={[3000, 2000, 1900, 4000, 7400, 7800, 8000]}
-      /> */}
+      />
       <WineCard
         name="Barolo"
         country="Italy"

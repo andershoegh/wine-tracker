@@ -49,50 +49,51 @@ export const WineCard: React.FC<Wine> = ({
           type="info"
         />
       )}
-      <div className="grid grid-flow-col grid-cols-3 grid-rows-3 gap-4">
-        {/* <div className="bg-white w-full m-4 p-6 font-serif text-gray-800 shadow-lg rounded-lg"> */}
-        <div className="text-2xl text-gray-800">{name}</div>
+      <div className="flex flex-wrap w-1/3">
+        <div className="bg-white w-full m-4 p-6 font-serif text-gray-800 shadow-lg rounded-lg">
+          <div className="text-2xl text-gray-800">{name}</div>
 
-        <div className="flex mt-2 text-gray-500 items-center">
-          <GlobeHemisphereWest className="mr-1" />
-          <p className="text-sm">{country}</p>
-        </div>
-        <div className="flex mt-2 text-gray-500 items-center">
-          <MapPinLine className="mr-1" />
-          <p className="text-sm">{region}</p>
-        </div>
-        <div className="flex mt-2 text-gray-500 items-center">
-          <Hourglass className="mr-1" />
-          <p className="text-sm">{year}</p>
-        </div>
-        <div className="border-gray-200 m-2 border border-opacity-50 "></div>
-        <Line
-          options={{
-            plugins: {
-              legend: { display: false },
-            },
-            pointRadius: 0,
-            elements: {
-              line: {
-                borderJoinStyle: "rouns",
+          <div className="flex mt-2 text-gray-500 items-center">
+            <GlobeHemisphereWest className="mr-1" />
+            <p className="text-sm">{country}</p>
+          </div>
+          <div className="flex mt-2 text-gray-500 items-center">
+            <MapPinLine className="mr-1" />
+            <p className="text-sm">{region}</p>
+          </div>
+          <div className="flex mt-2 text-gray-500 items-center">
+            <Hourglass className="mr-1" />
+            <p className="text-sm">{year}</p>
+          </div>
+          <div className="border-gray-200 m-2 border border-opacity-50 "></div>
+          <Line
+            options={{
+              plugins: {
+                legend: { display: false },
               },
-            },
-          }}
-          data={data}
-          type="line"
-        />
-        <div className="flex mt-2 text-xs text-gray-500 items-center">
-          Estimated value: {worth} <CurrencyEur className="mr-1" />
-        </div>
-        <div className="flex justify-end">
-          <button
-            onClick={() => {
-              setShowMessage(true);
+              pointRadius: 0,
+              elements: {
+                line: {
+                  borderJoinStyle: "rouns",
+                },
+              },
             }}
-            className="text-xs font-bold  text-red-900"
-          >
-            REQUEST TO SELL
-          </button>
+            data={data}
+            type="line"
+          />
+          <div className="flex mt-2 text-xs text-gray-500 items-center">
+            Estimated value: {worth} <CurrencyEur className="mr-1" />
+          </div>
+          <div className="flex justify-end">
+            <button
+              onClick={() => {
+                setShowMessage(true);
+              }}
+              className="text-xs font-bold  text-red-900"
+            >
+              REQUEST TO SELL
+            </button>
+          </div>
         </div>
       </div>
     </>
