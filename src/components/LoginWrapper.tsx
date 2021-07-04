@@ -7,7 +7,7 @@ import Signup from "./Signup";
 
 const LoginWrapper: React.FC = () => {
   return (
-    <div className="flex justify-center h-screen place-items-center">
+    <div className="flex w-full justify-center h-screen place-items-center">
       <div className="bg-white rounded-xl p-6 shadow-md">
         <div className="justify-center text-red-800 flex">
           <WineIcon height="56" width="56" />

@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     fontFamily: {
       display: ["Oswald"],
+      serif: ["ui-serif", "Georgia"],
       body: ["Open Sans"],
     },
     keyframes: {

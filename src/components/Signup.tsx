@@ -32,7 +32,7 @@ const Signup: React.FC = () => {
         setLoading(true);
         await signup(emailRef.current.value, passwordRef.current.value);
         setTimeout(() => {
-          history.push("/"); // TODO: figure out how to make sure user object is loaded before history push
+          history.push("/"); // TODO: figure out how to make sure user object is loaded before history push without timer
         }, 1000);
       } catch {
         setError("Failed to create account");
