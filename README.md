@@ -9,15 +9,13 @@ A hobby project.
 | Google Firebase Authentication           | OK            |
 | Style login/Signup/Forgot password pages | OK            |
 | Sidebar                                  | OK            |
-| My wines page                            |               |
-| Search for previous wines                |               |
+| My wines page                            | OK            |
+| Investment opportunities page            |               |
+| Reach a wine expert functionality        |               |
+| Search in my wines                       |               |
 | Map showing areas with tried wines       |               |
-| List view with acs/dsc functionality     |               |
 | Recommended for you                      |               |
 | Critique reviews of wine                 |               |
-| Reach a wine expert functionality        |               |
-| Portfolio page                           |               |
-| New investment opportunities page        |               |
 
 ## Run this application
 

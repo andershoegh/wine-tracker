@@ -9,15 +9,17 @@ import Sidebar from "./components/Sidebar";
 
 const App: React.FC = () => {
   return (
-    <div className="App bg-gray-100 relative flex">
+    <div className="App bg-gray-100 relative flex h-screen">
       <Router>
         <AuthProvider>
           <Sidebar />
-          <Switch>
-            <Route path="/account" component={LoginWrapper} />
-            <PrivateRoute exact path="/map" component={Map} />
-            <PrivateRoute exact path="/" component={MyWines} />
-          </Switch>
+          <div className="overflow-y-auto flex w-full">
+            <Switch>
+              <Route path="/account" component={LoginWrapper} />
+              <PrivateRoute exact path="/map" component={Map} />
+              <PrivateRoute exact path="/" component={MyWines} />
+            </Switch>
+          </div>
         </AuthProvider>
       </Router>
     </div>
