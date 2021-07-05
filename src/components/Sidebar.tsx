@@ -1,4 +1,4 @@
-import { ChartLine, MapPin, Notebook, SignOut } from "phosphor-react";
+import { ChartLine, Notebook, SignOut } from "phosphor-react";
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import { useAuth } from "../contexts/AuthContext";
