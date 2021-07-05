@@ -12,7 +12,7 @@ A hobby project.
 | My wines page                               | OK  |
 | Investment opportunities page               |     |
 | Reach a wine expert functionality           |     |
-| Add firestore functionality, fetch and push |     |
+| Add firestore functionality, fetch and push | OK  |
 | Search in my wines                          |     |
 | Map showing areas with tried wines          |     |
 | Recommended for you                         |     |
