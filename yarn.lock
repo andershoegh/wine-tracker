@@ -1336,7 +1336,7 @@
     "faye-websocket" "0.11.3"
     "tslib" "^2.1.0"
 
-"@firebase/firestore-types@2.3.0":
+"@firebase/firestore-types@^2.3.0", "@firebase/firestore-types@2.3.0":
   "integrity" "sha512-QTW7NP7nDL0pgT/X53lyj+mIMh4nRQBBTBlRNQBt7eSyeqBf3ag3bxdQhCg358+5KbjYTC2/O6QtX9DlJZmh1A=="
   "resolved" "https://registry.npmjs.org/@firebase/firestore-types/-/firestore-types-2.3.0.tgz"
   "version" "2.3.0"
